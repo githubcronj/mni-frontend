@@ -1,0 +1,20 @@
+.connectBtn {
+  background-color: #138707 !important;
+  color: #ffffff !important;
+  width: 75%;
+  padding: 20px !important;
+}
+.profileImg {
+  width: 100% !important;
+  height: 80% !important;
+}
+.companyImg {
+  position: absolute;
+  left: 40%;
+  bottom: 40px;
+}
+.memberShipStartup{
+  right: 40px;
+  top: 12px;
+  padding: 5px 15px;
+}

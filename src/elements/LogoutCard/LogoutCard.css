@@ -1,0 +1,10 @@
+.btnPopupLogout {
+  color: green !important;
+  border: 1px solid green !important;
+  border-radius: 20px !important;
+  width: 30%;
+}
+.btnPopupLogout:hover {
+  background-color: green !important;
+  color: #fff !important;
+}

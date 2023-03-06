@@ -1,0 +1,32 @@
+.main-support-container {
+  background-color: #eff3f3;
+  margin: 6em 3em;
+  padding: 24px;
+  display: block;
+}
+.header-text {
+  color: #707070;
+  font-size: smaller !important;
+}
+.header-support-text {
+  font-weight: bolder !important;
+}
+.support-text-field {
+  background-color: white !important;
+  border-radius: 0px !important;
+  border: none !important;
+}
+.MuiTextField-root {
+  border-radius: 0px !important;
+}
+.sbtn {
+  height: 72px;
+  width: 25%;
+  margin: 10px !important;
+}
+
+@media (max-width: 900px) {
+  .sbtn {
+    width: 50%;
+  }
+}

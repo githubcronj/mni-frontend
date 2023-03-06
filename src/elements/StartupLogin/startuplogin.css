@@ -1,0 +1,12 @@
+.arrow-icon {
+  position: absolute;
+  font-size: 40px !important;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+@media only screen and (max-width: 400px) {
+  #forgot {
+    font-size: 14px !important;
+  }
+}

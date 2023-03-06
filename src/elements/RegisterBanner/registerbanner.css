@@ -1,0 +1,136 @@
+.heading-align {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.heading {
+  font-size: 60px !important;
+  font-weight: bolder !important;
+  text-decoration: underline #ff9a33 3px;
+  text-underline-offset: 8px;
+  font-family: "light" !important;
+  font-weight: bolder !important;
+}
+
+.sub-heading {
+  font-size: 26px !important;
+  margin-top: 10px !important;
+}
+.icon-text,
+.icon-caption {
+  font-family: "medium" !important;
+}
+
+.box-style {
+  background-color: white;
+  padding: 55px;
+
+  margin: 30px !important;
+}
+
+.item-container {
+  border-right: solid #01010147 0.7px;
+  padding: 0;
+  align-items: center;
+  flex-direction: column !important;
+  row-gap: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+.item-container:last-child {
+  border: none;
+}
+.register-btn {
+  border-radius: 0px !important;
+  width: 20%;
+  height: 72px;
+  display: block;
+
+  font-family: "medium" !important;
+  background-color: #138707 !important;
+  text-transform: none !important;
+}
+.reg-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+}
+
+u {
+  text-decoration: none;
+}
+
+.main-reg-container {
+  background-color: #fff5ea;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+@media (max-width: 1200px){
+  .heading {
+    font-size: 45px !important;
+}
+.sub-heading {
+  font-size: 21px !important;
+}
+.icon-text{
+  font-size: 2.5rem !important;
+}
+}
+@media (max-width: 900px) {
+  .sub-heading {
+    display: none;
+  }
+  u {
+    text-decoration: underline #ff9a33 3px;
+    text-underline-offset: 8px;
+  }
+  .box-style {
+    margin: 0 !important;
+  }
+  .register-btn {
+    width: 30% !important;
+  }
+  .reg-btn-container {
+    margin-top: -32px;
+  }
+  .heading {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 31px !important;
+}
+  .item-container {
+    border-right: none;
+    border-bottom: solid #01010147 0.7px;
+    flex-direction: row !important;
+    justify-content: space-around;
+  }
+  .box-style {
+    width: 80% !important;
+    padding: 5px;
+    padding-bottom: 40px;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-container {
+    padding: 1em;
+  }
+  .icon {
+    padding: 1em;
+  }
+  .reg-btn-container {
+    margin-top: -30px;
+  }
+  .register-btn {
+    width: 70% !important;
+  }
+  .icon-text {
+    font-size: 40px !important;
+  }
+}

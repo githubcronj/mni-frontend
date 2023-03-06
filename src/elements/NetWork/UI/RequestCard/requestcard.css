@@ -1,0 +1,48 @@
+.accept-btn {
+  border-radius: 50px !important;
+  height: 44px;
+}
+
+.open-note-align {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .accept-btn {
+    font-size: 12px !important;
+    width: 20%;
+  }
+  .request-company-name {
+    font-size: 14px !important;
+  }
+  .request-company-location {
+    font-size: 12px !important;
+  }
+  .open-note-align {
+    font-size: 10px !important;
+  }
+}
+/*  */
+.note-card-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.modal-reject-btn {
+  background-color: #eff3f3 !important;
+  margin-right: 10px !important;
+}
+
+.modal-reject-btn,
+.modal-accept-btn {
+  border-radius: 20px !important;
+  padding: 10px 20px !important;
+}
+
+.modal-btn-align {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}

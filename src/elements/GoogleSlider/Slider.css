@@ -1,0 +1,31 @@
+.slider {
+  overflow-x: hidden;
+}
+.googleName {
+  margin-bottom: 10px !important;
+  font-size: 24px !important;
+}
+
+.googleInner {
+  font-size: 14px;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 1920px) {
+  .sliderDiv {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .googleInner {
+    font-size: 12px;
+    /* width: 45%;
+    padding: 5px; */
+  }
+  .sliderDiv {
+    padding: 15px 8px !important;
+  }
+}

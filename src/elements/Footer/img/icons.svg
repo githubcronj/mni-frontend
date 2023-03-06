@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="223.661" height="55.7" viewBox="0 0 223.661 55.7">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.146" x2="0.854" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fae100"/>
+      <stop offset="0.15" stop-color="#fcb720"/>
+      <stop offset="0.3" stop-color="#ff7950"/>
+      <stop offset="0.5" stop-color="#ff1c74"/>
+      <stop offset="1" stop-color="#6c1cd1"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_30758" data-name="Group 30758" transform="translate(-127.086 -584.5)">
+    <g id="facebook_6_" data-name="facebook (6)" transform="translate(127.086 584.5)">
+      <path id="Path_12570" data-name="Path 12570" d="M54.378,27.187A27.194,27.194,0,0,1,31.437,54.044v-19h6.335l1.205-7.859H31.437v-5.1c0-2.151,1.054-4.246,4.431-4.246H39.3V11.151a41.822,41.822,0,0,0-6.087-.531C27,10.62,22.941,14.384,22.941,21.2v5.99h-6.9v7.859h6.9v19A27.189,27.189,0,1,1,54.378,27.187Z" transform="translate(0)" fill="#1877f2"/>
+      <path id="Path_12571" data-name="Path 12571" d="M172.942,124.66l1.217-7.934h-7.612v-5.149c0-2.171,1.063-4.286,4.473-4.286h3.461v-6.755a42.207,42.207,0,0,0-6.144-.536c-6.27,0-10.367,3.8-10.367,10.679v6.047H151v7.934h6.969v19.18a27.737,27.737,0,0,0,8.577,0V124.66Z" transform="translate(-135.077 -89.795)" fill="#fff"/>
+    </g>
+    <g id="linkedin" transform="translate(211.464 584.5)">
+      <ellipse id="Ellipse_57" data-name="Ellipse 57" cx="27.349" cy="27.85" rx="27.349" ry="27.85" transform="translate(0 0)" fill="#007ab9"/>
+      <g id="Group_30764" data-name="Group 30764" transform="translate(13.309 12.26)">
+        <path id="Path_12572" data-name="Path 12572" d="M57.383,41.728V52.938h-6.5V42.48c0-2.626-.938-4.419-3.291-4.419a3.555,3.555,0,0,0-3.334,2.376,4.448,4.448,0,0,0-.215,1.584V52.937h-6.5s.087-17.713,0-19.546h6.5v2.77c-.013.022-.032.043-.043.064h.043v-.064A6.453,6.453,0,0,1,49.9,32.932c4.276,0,7.481,2.794,7.481,8.8ZM30.746,23.969a3.387,3.387,0,1,0-.085,6.755H30.7a3.388,3.388,0,1,0,.043-6.755ZM27.454,52.938h6.5V33.391h-6.5Z" transform="translate(-27.068 -23.969)" fill="#f1f2f2"/>
+      </g>
+    </g>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(296.162 584.5)">
+      <g id="Circle" transform="translate(0 0)">
+        <g id="_03.Instagram" data-name="03.Instagram">
+          <rect id="Background" width="54.378" height="55.379" rx="27.189" transform="translate(0.207 0.213)" fill="url(#linear-gradient)"/>
+          <g id="Group_30765" data-name="Group 30765">
+            <path id="Shade" d="M47.848,9.533a99.182,99.182,0,0,1-16.639,22.33A97.667,97.667,0,0,1,9.348,48.839q-.686-.609-1.332-1.269A28.274,28.274,0,0,1,8.007,8.165a26.9,26.9,0,0,1,38.6-.006q.642.664,1.24,1.374Z" transform="translate(-0.016 0)" fill="#fff" opacity="0.1"/>
+            <g id="Icon" transform="translate(12.923 13.93)">
+              <path id="Path_12573" data-name="Path 12573" d="M56.83,36H43.9A7.9,7.9,0,0,0,36,43.9V56.83a7.9,7.9,0,0,0,7.9,7.9H56.83a7.9,7.9,0,0,0,7.9-7.9V43.9A7.9,7.9,0,0,0,56.83,36Zm5.387,19.7A6.522,6.522,0,0,1,55.7,62.218H45.036A6.522,6.522,0,0,1,38.514,55.7V45.036a6.522,6.522,0,0,1,6.522-6.522H55.7a6.522,6.522,0,0,1,6.522,6.522Z" transform="translate(-36 -36)" fill="#fff"/>
+              <path id="Path_12574" data-name="Path 12574" d="M68.179,57.567l-.068-.068-.057-.057a7.24,7.24,0,0,0-5.114-2.112,7.37,7.37,0,0,0-7.319,7.424A7.452,7.452,0,0,0,57.774,68a7.251,7.251,0,0,0,5.179,2.155,7.445,7.445,0,0,0,5.226-12.588Zm-5.24,10.056a4.87,4.87,0,1,1,4.8-4.87A4.87,4.87,0,0,1,62.939,67.624Z" transform="translate(-48.573 -48.388)" fill="#fff"/>
+              <path id="Path_12575" data-name="Path 12575" d="M96.221,51.24a1.753,1.753,0,0,1-1.742,1.767,1.728,1.728,0,0,1-1.228-.514,1.771,1.771,0,0,1,1.232-3.013,1.731,1.731,0,0,1,1.11.4l.036.036a1.1,1.1,0,0,1,.158.158l.04.043a1.767,1.767,0,0,1,.4,1.121Z" transform="translate(-72.363 -44.639)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

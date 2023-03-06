@@ -1,0 +1,29 @@
+.swot-container {
+  margin: 50px;
+}
+@media only screen and (max-width: 900px) {
+  .swot-titles {
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .swot-container {
+    margin: 30px 10px;
+  }
+  .swot-titles {
+    font-size: 35px !important;
+  }
+  .swot-text {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 364px) {
+  .swot-titles {
+    font-size: 25px !important;
+  }
+  .swot-text {
+    font-size: 14px !important;
+  }
+}

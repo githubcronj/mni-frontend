@@ -1,0 +1,24 @@
+.textbold{
+    font-weight: 600 !important;
+}
+
+.inputfeilds{
+    width: 100%;
+    
+}
+.textarea{
+    margin-left: 10px;
+}
+@media (max-width:768px) 
+{
+    .textarea{
+        margin-left: 0px;
+    }
+}
+@media (max-width:460px) 
+{
+    
+}
+@media (max-width:320px) {
+   
+}

@@ -1,0 +1,92 @@
+.max-height-sidebar {
+  max-height: 857px !important;
+}
+.main-comp-img {
+  position: relative;
+}
+.main-comp-logo {
+  position: relative;
+  bottom: 2rem;
+  left: 4rem;
+}
+.company-det-card {
+  background-color: #eff3f3 !important;
+  height: 100%;
+}
+.company-det-industry {
+  background-color: #d4e9d2;
+  padding: 12px;
+}
+.company-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 55px;
+  font-weight: bold !important;
+}
+.company-det-descrip {
+  display: flex;
+  padding: 20px 55px;
+  letter-spacing: 0.32px;
+  opacity: 1;
+}
+.answer {
+  font-family: "bold" !important;
+  /* font-size: 38px !important; */
+}
+.question {
+  padding-top: 10px;
+  opacity: 0.75;
+  font-weight: bold;
+  font-size: 16px !important;
+}
+.location-company {
+  border: #01010147 1px solid;
+  width: fit-content;
+  /* padding: 8px; */
+  margin-top: 20px !important;
+  margin-left: 55px !important;
+  column-gap: 10px !important;
+}
+.location-on {
+  margin-top: 10px !important;
+  font-size: 40px !important;
+}
+.Button-company {
+  margin-top: 30px !important;
+  margin-left: 30px !important;
+  column-gap: 55px !important;
+  margin-bottom: 30px !important;
+}
+.process {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-height {
+  height: 52px;
+}
+
+.chat {
+  flex-grow: 2;
+  margin-right: 10px !important;
+}
+
+.share {
+  flex-grow: 1;
+}
+@media only screen and (max-width: 900px) {
+  .comp-sidebar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .answer {
+    padding: 0px;
+  }
+}
+/* @media only screen and (max-width: 600px)
+{
+    .comp-sidebar{
+        display: none;
+    }
+} */

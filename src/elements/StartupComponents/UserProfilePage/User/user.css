@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+.edit-btn {
+  position: absolute !important;
+  right: 24px !important;
+  margin-top: -2rem !important;
+  border-radius: 0px !important;
+  background-color: #01010126 !important;
+}
+.edit-icon {
+  color: black;
+}
+.connect-Btn {
+  text-align: center;
+  font-size: 20px !important;
+  width: 90% !important;
+  color: #fff !important;
+  font-family: "bold" !important;
+}
+.shareBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding-right: 35% !important;
+  padding-left: 35% !important;
+}
+.user-sub-container {
+  margin: 2rem 1rem;
+}
+
+.industry-box {
+  padding: 10px;
+  margin-right: 10px;
+}
+.company-box {
+  border: 0.7px solid #01010147;
+  padding: 1rem;
+  text-align: center;
+}
+.btn-connect {
+  color: #fff !important;
+  border-radius: 30px !important;
+  font-family: "bold" !important;
+}
+.poppins-italic {
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+  .user-company-title {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .user-company-title {
+    font-size: 25px !important;
+  }
+  .industry-box {
+    padding: 5px 8px;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+}
+
+.btnProfile {
+  font-size: 18px !important;
+  font-family: "bold" !important;
+}

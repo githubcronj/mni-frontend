@@ -1,0 +1,30 @@
+.chatBoxOpen{
+    background-color:#162634; 
+    width:300px;
+    padding: 10px;
+    cursor: pointer;
+}
+.investor1{
+    /* background-color:#162634;  */
+    padding: 10px;
+}
+.chatBoxOpened{
+    background-color:#162634; 
+    padding: 10px;
+}
+.chatList{
+    background-color:#162634; 
+    width:320px;
+    height: 600px;
+}
+.ChatListUser{
+    background-color:#162634; 
+    width:320px;
+    height: 500px;
+    right:350px;
+}
+.boxOpened{
+    display: none;
+}
+
+

@@ -1,0 +1,78 @@
+.RegisterBg {
+  background: url("./img/reg-bg.svg") no-repeat center center/cover;
+  /* height: 100vh; */
+}
+.RegContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.RegTitle {
+  font-family: "light" !important;
+}
+.RegInner {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+.RegTitle2 {
+  text-align: center;
+  letter-spacing: 0.52px;
+  color: #010101;
+  margin-top: 20px !important;
+  font-family: "book" !important;
+}
+.button-Reg {
+  text-align: center !important;
+  margin-top: 40px;
+}
+
+.reg-button {
+  color: white !important;
+  border-radius: 1px !important;
+  width: 250px !important;
+  padding: 2% !important;
+  font-size: 20px !important;
+  text-transform: none !important;
+  font-family: "medium" !important;
+}
+.inv {
+  margin-left: 30px !important;
+}
+.reg-button:hover {
+  color: #fff !important;
+  background-color: orange !important;
+}
+.inv:hover {
+  color: #fff !important;
+  background-color: #138707 !important;
+}
+@media only screen and (max-width: 600px) {
+  .RegTitle {
+    font-size: 42px !important;
+    width: 70% !important;
+  }
+  .RegTitle2 {
+    font-size: 16px !important;
+  }
+  .button-Reg {
+    display: block !important;
+  }
+  .reg-button {
+    margin-bottom: 10px !important;
+  }
+  .inv {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .RegTitle {
+    font-size: 62px !important;
+    width: 80% !important;
+  }
+  .button-Reg {
+    display: block !important;
+  }
+}

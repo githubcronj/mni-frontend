@@ -1,0 +1,4 @@
+.top-startup {
+  display: flex;
+  flex-direction: row !important;
+}

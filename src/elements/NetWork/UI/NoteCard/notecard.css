@@ -1,0 +1,22 @@
+.note-card-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.modal-reject-btn {
+  background-color: #eff3f3 !important;
+  margin-right: 10px !important;
+}
+
+.modal-reject-btn,
+.modal-accept-btn {
+  border-radius: 20px !important;
+  padding: 10px 20px !important;
+}
+
+.modal-btn-align {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}

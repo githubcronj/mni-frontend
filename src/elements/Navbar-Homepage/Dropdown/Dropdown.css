@@ -1,0 +1,36 @@
+/* DROPDOWN */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 180px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #fff;
+   
+  }
+  
+  .login-btn:hover .dropdown-content {
+    display: block;
+    margin-top: 28px;
+    cursor: pointer;
+  }
+  
+  .sitelink-Pricing:hover .dropdown-content {
+    display: block;
+    margin-left: 70px;
+  }
+  .sitelink-Pricing:hover {
+    cursor: pointer;
+  }
+  

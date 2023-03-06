@@ -1,0 +1,42 @@
+.common-btn {
+  border-radius: 0px !important;
+  width: 25%;
+  height: 72px;
+  font-weight: bolder !important;
+  margin: 10px !important;
+  text-transform: none !important;
+}
+
+.success {
+  background-color: #138707 !important;
+}
+
+.cancel {
+  color: #138707 !important;
+}
+.view-btn {
+  background-color: #eff3f3 !important;
+  height: 60px !important;
+  width: 12%;
+  color: #138707 !important;
+  border-radius: 0px !important;
+  margin-right: 30px !important;
+}
+.chat-btn {
+  background-color: #138707 !important;
+  width: 30%;
+  padding: 20px !important;
+  color: #fff !important;
+  border-radius: 0px !important;
+}
+.share-btn {
+  background-color: #fff !important;
+  color: #138707 !important;
+  width: 15%;
+  padding: 20px !important;
+}
+@media (max-width: 900px) {
+  .btn {
+    width: 50%;
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "light"; /*Can be any text*/
+  src: local("Javanese text"),
+    url("./fonts/Javanese text.ttf") format("truetype");
+}
+@font-face {
+  font-family: "bold"; /*Can be any text*/
+  src: local("GothamBold"), url("./fonts/GothamBold.woff") format("truetype");
+}
+@font-face {
+  font-family: "book"; /*Can be any text*/
+  src: local("GothamBook"), url("./fonts/GothamBook.woff") format("truetype");
+}
+
+@font-face {
+  font-family: "medium"; /*Can be any text*/
+  src: local("GothamMedium"),
+    url("./fonts/GothamMedium.woff") format("truetype");
+}
+@font-face {
+  font-family: "regular"; /*Can be any text*/
+  src: local("GothamBlack"), url("./fonts/GothamBlack.woff") format("truetype");
+}
+@font-face {
+  font-family: "gotham-light"; /*Can be any text*/
+  src: local("GothamLight"), url("./fonts/GothamLight.woff") format("truetype");
+}

@@ -1,0 +1,101 @@
+.pricings:hover {
+  cursor: pointer !important;
+}
+.pricings {
+  margin-left: 25%;
+  border: 1px solid #01010147;
+  padding: 5px;
+}
+.tableHeading {
+  font-size: 24px !important;
+}
+.pricingTitle {
+  font-family: "light" !important;
+  font-weight: bold !important;
+  font-size: 60px !important;
+}
+.pricingStartup,
+.pricingInvestor {
+  font-size: 24px;
+  padding: 10px 30px;
+}
+.arrayBtn {
+  background-color: #138707 !important;
+  color: #ffffff !important;
+  padding: 7% !important;
+  border-radius: 1px !important;
+  text-transform: capitalize !important;
+  font-weight: bold !important;
+}
+
+tbody th {
+  font-family: "medium" !important;
+  font-weight: bold !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .tableHeading {
+    font-size: 14px !important;
+  }
+  .tablecontent {
+    font-size: 13px !important;
+  }
+  .pricings {
+    margin-left: 0px;
+    border: 1px solid #01010147;
+    padding: 5px;
+    width: fit-content !important;
+    margin-left: 15%;
+  }
+  .pricingBox-inner {
+    display: block !important;
+    align-items: center !important;
+  }
+
+  .pricingTitle {
+    width: fit-content !important;
+    margin-left: 30% !important;
+    font-size: 35px !important;
+    margin-bottom: 20px !important;
+  }
+  .pricingStartup,
+  .pricingInvestor {
+    width: fit-content !important;
+  }
+  .pricingBox {
+    display: block !important;
+    justify-content: center !important;
+  }
+}
+.failure-img {
+  width: 50%;
+}
+@media only screen and (max-width: 1200px) {
+  .pricingBox-inner {
+    display: block !important;
+    align-items: center !important;
+    margin-bottom: 30px;
+    justify-content: center !important;
+  }
+  .tableHeading {
+    font-size: 18px !important;
+  }
+  .pricingTitle {
+    width: fit-content !important;
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 45px !important;
+  }
+  .pricingStartup,
+  .pricingInvestor {
+    width: fit-content !important;
+  }
+  .pricingBox {
+    display: block !important;
+    justify-content: center !important;
+  }
+  .pricings {
+    justify-content: center;
+    width: fit-content;
+  }
+}

@@ -1,0 +1,37 @@
+.position-trending-date{
+    display: flex !important;
+    align-items: center !important;
+
+}
+@media(max-width:2560px){
+    #date-mob-display{
+        display: none;
+    }
+}
+
+@media(max-width:898px){
+    .td-media-query{
+        display: none;
+    }
+    .td-text-display-none{
+        display: none;
+    }
+
+} 
+@media(max-width:600px){
+    .td-mob-text-display-none{
+        display: none;
+    }
+    .img-hight-change{
+        height: 9% !important;
+    }
+    .mob-viwe-div{
+        display: none;
+    }
+    /* .position-trending-date{
+        display: block !important;
+    } */
+    #date-mob-display{
+        display: block;
+    }
+}

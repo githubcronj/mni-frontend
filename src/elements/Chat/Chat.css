@@ -1,0 +1,19 @@
+.chat-container {
+  background-color: #eff3f3;
+  height: 100vh;
+  margin: 10;
+  padding: 10px;
+}
+.btn-ChatSection {
+  width: 100%;
+  color: black !important;
+}
+.container-chat {
+  align-items: center;
+  border-bottom: 1px solid #7c7c7c;
+}
+.textboxChat {
+  width: 90%;
+  margin-left: 10px;
+  padding: 10px;
+}

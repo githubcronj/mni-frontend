@@ -1,0 +1,71 @@
+.mx {
+  margin: 0px 40px;
+  padding-bottom: 30px;
+}
+.save-profile-btn {
+  width: 50%;
+}
+
+.save-profile-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-btn {
+  border-radius: 40px !important;
+  width: 80px;
+}
+.text-area {
+  width: 50% !important;
+}
+.field-height {
+  height: 74px;
+}
+.tags-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 67px;
+}
+
+.avatar-position {
+  margin-top: -108px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .avatar-position {
+    margin-top: 0px !important;
+  }
+
+  .text-area {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mx {
+    margin: 0px;
+  }
+  .save-profile-btn-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    padding-right: 40px;
+  }
+  .save-profile-btn {
+    width: 100%;
+  }
+  .tags-container {
+    gap: 10px 39px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .edit-profile-fields-container .css-luel6v-MuiInputBase-root {
+    font-size: 12px !important;
+  }
+  .text-area-container .css-rhrbtd-MuiInputBase-input {
+    font-size: 12px !important;
+  }
+}

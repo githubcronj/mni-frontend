@@ -1,0 +1,17 @@
+.HeadText{
+    color: #010101!important;
+    font-size: 18px !important;
+    font-family: "bold" !important;
+    letter-spacing: 0.54px!important;
+    opacity: 1!important;
+    padding-bottom: 1rem!important;
+}
+@media (max-width:600px){
+    .HeadText{
+        font-size: 16px !important;
+        padding-bottom: 0.5rem!important;
+    } 
+    .breadcrumbStyle{
+        display: none;
+    }
+}

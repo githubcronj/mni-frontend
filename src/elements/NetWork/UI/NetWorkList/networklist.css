@@ -1,0 +1,23 @@
+.box {
+  margin: 1rem 2rem;
+  position: relative !important;
+}
+.toolbar {
+  padding: 0 !important;
+}
+.req-btn {
+  position: absolute !important;
+  right: 0 !important;
+  margin-top: 0 !important;
+  height: 50px;
+  width: fit-content;
+}
+
+@media (max-width: 600px) {
+  .req-btn {
+    position: relative !important;
+  }
+  .box {
+    margin: 0;
+  }
+}

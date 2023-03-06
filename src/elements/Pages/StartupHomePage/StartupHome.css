@@ -1,0 +1,41 @@
+.viewMoreBtn {
+  position: absolute !important;
+  right: 0;
+}
+
+.btnBox {
+  position: relative;
+}
+@media (max-width: 600px) {
+  .btnBox {
+    position: unset;
+  }
+  .viewMoreBtn {
+    right: 33%;
+    bottom: 30px;
+    z-index: 2;
+  }
+  .carousalGrid {
+    position: relative;
+    height: 770px;
+  }
+  .startup-card-container {
+    height: 630px;
+  }
+}
+@media (max-width: 376px) {
+  .viewMoreBtn {
+    right: 28%;
+  }
+}
+@media (max-width: 320px) {
+  .viewMoreBtn {
+    right: 25%;
+  }
+  .viewMoreBtn {
+    bottom: 70px;
+  }
+  .startup-card-container {
+    height: 580px;
+  }
+}

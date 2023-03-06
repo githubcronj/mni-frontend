@@ -1,0 +1,95 @@
+.discover-main-container {
+  padding: 53px 10px 10px 85px;
+  background-color: #eff3f3;
+
+  display: flex;
+}
+.image {
+  float: right;
+  max-width: 100%;
+}
+.main-heading {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 60px !important;
+  font-family: "light" !important;
+  font-weight: bold !important;
+}
+.sub-text {
+  font-family: "book" !important;
+  font-size: 26px !important;
+}
+#india-text {
+  text-decoration: underline;
+  text-decoration-color: #ff9a33;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
+}
+
+.main-heading u {
+  text-decoration: none;
+}
+
+@media (max-width: 1200px){
+  .main-heading {
+    font-size: 42px !important;
+}
+.sub-text {
+  font-size: 21px !important;
+}
+}
+@media only screen and (max-width: 900px) {
+  .discover-main-container {
+    display: block;
+
+    padding-left: 10px;
+  }
+  .main-heading {
+    text-align: center;
+    font-size: 45px !important;
+  }
+
+  .sub-text {
+    font-size: 20px !important;
+  }
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    float: none;
+  }
+
+  .main-heading u {
+    text-decoration: underline;
+    text-decoration-color: #ff9a33;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    text-align: center;
+  }
+  .main-heading u {
+    text-decoration: underline;
+    text-decoration-color: #ff9a33;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  .main-heading {
+    font-size: 31px !important;
+  }
+  .sub-text {
+    font-size: 14px !important;
+}
+}
+@media (max-width: 350px){
+  .main-heading {
+    font-size: 26px !important;
+}
+}

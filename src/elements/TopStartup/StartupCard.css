@@ -1,0 +1,130 @@
+.logo {
+  width: 40px;
+}
+.react-multiple-carousel__arrow {
+  background-color: #138707 !important;
+}
+#startup-heading {
+  font-size: 55px;
+  border-bottom: solid 3px #ff9a33;
+  font-family: "light" !important;
+  font-weight: bolder !important;
+}
+#industry {
+  width: fit-content;
+  background-color: #eff3f3;
+  padding: 10px;
+  color: #010101;
+  opacity: 0.6;
+}
+.react-multiple-carousel__arrow--right{
+  right: calc(5px) !important;
+}
+.react-multiple-carousel__arrow--left {
+  left: calc(5px) !important;
+}
+
+.grey-btn {
+  column-gap: 14px;
+}
+#company-name {
+  font-weight: bold;
+}
+.ques {
+  font-size: 13px !important;
+  letter-spacing: 0.26px;
+  color: #010101;
+  opacity: 0.3;
+}
+.ans {
+  font-size: 26px !important;
+  font-weight: bolder !important;
+  letter-spacing: 0.52px;
+  color: #010101;
+  opacity: 1;
+}
+
+#industry-content {
+  letter-spacing: 0.32px;
+  color: #010101;
+  opacity: 1;
+  font-family: "book" !important;
+}
+#chat-btn {
+  border-radius: 0px;
+  background-color: #138707;
+  width: 390px;
+  height: 62px;
+}
+#startup-card {
+  margin-top: 30px;
+  width: 90%;
+}
+.memberShip{
+  right: 5px;
+  top: 10px;
+  padding: 3px 10px;
+}
+
+@media (max-width: 1200px){
+  #startup-heading {
+    font-size: 42px;
+}
+}
+@media only screen and (max-width: 900px) {
+  #startup-heading {
+    font-size: 50px !important;
+    max-width: 70% !important;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+  #startup-card{
+    width: 50%;
+  }
+}
+@media (max-width:600px){
+  .ans {
+    font-size: 21px !important;
+  }
+  #startup-card{
+    width: 75%;
+  }
+  #startup-heading {
+    font-size: 36px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .react-multiple-carousel__arrow{
+    bottom: 0;
+  }
+  .view-more-btn {
+    position: absolute !important;
+    bottom: 0;
+    left: 33%;
+  }
+  .rootGrid{
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .cardOuterGrid{
+    padding-bottom: 40px;
+  }
+  /* #startup-card{
+        margin-left: -80px !important;
+        margin-right: 120px !important;
+    } */
+    #startup-heading {
+      font-size: 31px !important;
+      max-width: 100% !important;
+  }
+}
+@media(max-width: 376px){
+  #startup-heading {
+    font-size: 26px !important;
+}
+#startup-card {
+  width: 70%;
+}
+}

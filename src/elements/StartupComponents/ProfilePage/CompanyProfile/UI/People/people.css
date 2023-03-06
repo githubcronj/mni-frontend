@@ -1,0 +1,25 @@
+.people-box {
+  padding: 30px !important;
+}
+
+.people-text {
+  display: block !important;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.people-width {
+  width: 80%;
+}
+
+.people-main-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .people-box {
+    margin: 0px 15px !important;
+  }
+}

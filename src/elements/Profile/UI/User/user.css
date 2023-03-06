@@ -1,0 +1,39 @@
+.edit-btn {
+  position: absolute !important;
+  right: 24px !important;
+  margin-top: -2rem !important;
+  border-radius: 0px !important;
+  background-color: #01010126 !important;
+}
+.edit-icon {
+  color: black;
+}
+.main-container {
+  width: 100%;
+}
+.user-sub-container {
+  margin: 2rem 1rem;
+}
+
+.industry-box {
+  padding: 10px;
+  margin-right: 10px;
+}
+.company-box {
+  border: 0.7px solid #01010147;
+  padding: 2rem;
+
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .user-company-title {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .user-company-title {
+    font-size: 25px !important;
+  }
+}

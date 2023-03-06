@@ -1,0 +1,137 @@
+.white {
+  color: white !important;
+}
+.bg-white {
+  background-color: white !important;
+}
+
+.book {
+  font-family: "book" !important;
+}
+
+.light {
+  font-family: "light" !important;
+}
+
+.input {
+  height: 72px;
+  padding: 10px;
+  color: #ffff !important;
+  background-color: rgb(255, 255, 255, 0.16);
+}
+
+.medium {
+  font-family: "gotham-light" !important;
+}
+
+.bold {
+  font-family: "bold" !important;
+}
+.size-l {
+  font-size: 60px !important;
+}
+.size-s {
+  font-size: 18px !important;
+}
+.size-xs {
+  font-size: 16px !important;
+}
+
+.size-m {
+  font-size: 24px !important;
+}
+
+.bg-green {
+  background-color: #138707 !important;
+}
+.bg-grey {
+  background-color: #eff3f3 !important;
+}
+.bg-orange {
+  background-color: #ff9a33 !important;
+}
+.green {
+  color: #138707 !important;
+}
+.orange {
+  color: #ff9a33 !important;
+}
+.grey {
+  color: #010101a8 !important;
+}
+.button {
+  height: 72px !important;
+
+  text-transform: none !important;
+  border-radius: 0px !important;
+}
+.weight {
+  font-weight: bolder !important;
+}
+.black {
+  color: #010101;
+}
+.bg-lightgreen {
+  background-color: #d4e9d2;
+}
+
+.divider {
+  background-color: #01010126 !important;
+}
+
+.padding {
+  padding-left: 0 !important;
+}
+.align {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.align-between {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.main-container {
+  padding: 1rem 2rem;
+
+  position: relative !important;
+}
+
+.size-sm {
+  font-size: 35px !important;
+}
+
+.btn {
+  border-radius: 0px !important;
+  font-weight: bolder !important;
+  text-transform: none !important;
+}
+
+.max-width {
+  max-width: 100% !important;
+}
+.width {
+  width: 100% !important;
+}
+.text-field {
+  padding: 10px !important;
+}
+
+.underline-link {
+  text-decoration: underline 0.7px #ff9a33;
+}
+
+.border {
+  border: 0.7px #010101a8 solid;
+}
+
+.border-light {
+  border: 0.7px #01010147 solid;
+}
+
+.location-btn {
+  border: 1px solid #01010147;
+  padding: 1rem;
+  width: max-content;
+}

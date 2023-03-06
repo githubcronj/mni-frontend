@@ -1,0 +1,47 @@
+.navbar-home {
+  border-bottom: none !important;
+}
+.app-bar {
+  box-shadow: none !important;
+  font-family: "medium" !important;
+}
+.logo-navbar {
+  width: 18%;
+  margin-left: 25px;
+}
+.googleImage {
+  width: 20% !important;
+}
+.startup-btn {
+  background-color: #eff3f3 !important;
+}
+
+@media (max-width: 660px) {
+  .logo-navbar-drawer {
+    width: 75%;
+    margin-left: 20px;
+    margin: 10px 15px;
+  }
+  .logo-navbar {
+    width: 30%;
+    margin-left: 0px;
+  }
+  .xs-none {
+    display: none;
+  }
+  .navbarIcons{
+    display: none;
+  }
+  .iconSize{
+margin:0px 18px;
+font-size: 28px !important;
+  }
+}
+@media (max-width: 900px) {
+  .startup-btn {
+    border-radius: 50% !important;
+  }
+  .icon-none {
+    display: none !important;
+  }
+}

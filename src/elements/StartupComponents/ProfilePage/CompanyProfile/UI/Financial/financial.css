@@ -1,0 +1,26 @@
+.financial-container {
+  margin: 50px 70px;
+}
+
+.financial-items {
+  padding: 20px 30px;
+}
+
+.mt {
+  margin-top: 30px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .financial-text-size {
+    font-size: 25px !important;
+  }
+  .financial-container {
+    margin: 50px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .financial-text-size {
+    font-size: 20px !important;
+  }
+}

@@ -1,0 +1,32 @@
+.sidebar-main-container {
+  padding: 1rem;
+  max-height: 1000px;
+  overflow-y: scroll;
+  margin-right: 50px;
+  background-color: #eff3f3 !important;
+  width: 100% !important;
+}
+.google-img{
+  width: 70%;
+}
+@media only screen and (max-width: 900px) {
+  .sidebar-main-container {
+    overflow-y: hidden;
+    max-height: 100%;
+    margin: 30px;
+    width: 60% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar-main-container {
+    overflow-y: hidden;
+    max-height: 100%;
+    margin: 0px;
+    width: 100% !important;
+    background-color: white !important;
+  }
+  .google-img {
+    width: 70%;
+  }
+}

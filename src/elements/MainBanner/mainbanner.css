@@ -1,0 +1,127 @@
+.fontE3 {
+  font-size: 16px !important;
+  color: #777e90;
+  font-family: "book" !important;
+  padding-left: 5px !important;
+}
+.fontE2 {
+  font-size: 50px !important;
+  color: #000;
+  font-weight: bolder !important;
+  font-family: "light" !important;
+}
+.fontE1 {
+  font-size: 18px !important;
+  color: #777e90;
+  font-weight: Bolder !important;
+}
+.mR {
+  margin-right: 20px !important;
+  background-color: green !important;
+}
+.endWidth {
+  width: 100%;
+}
+.alignBox {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  padding: 85px 0px 0px 0px !important;
+}
+
+.box-margin {
+  margin-left: 60px;
+}
+
+.arrow-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 1190px) {
+  .arrow-image {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+#investor-text {
+  text-decoration: line-through;
+  text-decoration-color: #13870745;
+  text-decoration-thickness: 25px;
+}
+
+.btn-container {
+  margin-top: 20px;
+}
+
+.banner-btn {
+  border-radius: 0px !important;
+  width: 35%;
+  height: 72px;
+  font-family: "bold" !important;
+
+  text-transform: none !important;
+  font-size: 20px !important;
+}
+
+.reg {
+  background-color: #eff3f3 !important;
+  color: #138707 !important;
+}
+.banner-btn:hover {
+  background-color: green !important;
+}
+
+.reg:hover {
+  background-color: #eff3f3 !important;
+}
+
+@media (max-width: 900px) {
+  .alignBox {
+    text-align: center !important;
+  }
+  .fontE2 {
+    font-size: 44px !important;
+  }
+  .arrow-image {
+    display: none;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .box-margin {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 600px) and (min-width: 300px) {
+  .fontE2 {
+    font-size: 35px !important;
+  }
+  .arrow-image {
+    display: none;
+  }
+  .fontE3 {
+    font-size: 14px !important;
+  }
+  .banner-btn {
+    width: 100%;
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+    height: 62px;
+  }
+  .alignBox {
+    text-align: center;
+    padding:0px !important;
+  }
+  .btn-container {
+    display: block;
+    justify-content: center;
+  }
+  .box-margin {
+    padding: 16px;
+  }
+}
